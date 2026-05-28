@@ -4,16 +4,16 @@
  * Central configuration for the Treasury Bill Reconciliation App.
  *
  * ⚠️  SETUP REQUIRED:
- *   1. Go to https://console.cloud.google.com/
- *   2. Create a project → Enable "Google Sheets API" and "Google Drive API"
- *   3. Create OAuth 2.0 Client ID (Web Application)
- *   4. Add your GitHub Pages URL to "Authorised JavaScript origins"
- *   5. Replace the placeholder values below with your real credentials.
+ * 1. Go to https://console.cloud.google.com/
+ * 2. Create a project → Enable "Google Sheets API" and "Google Drive API"
+ * 3. Create OAuth 2.0 Client ID (Web Application)
+ * 4. Add your GitHub Pages URL to "Authorised JavaScript origins"
+ * 5. Replace the placeholder values below with your real credentials.
  */
 
 const TBR_CONFIG = {
   // --- Google OAuth 2.0 ---
-  CLIENT_ID: "YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com",
+  CLIENT_ID: "1062984053184-8vco89mhmk04q1516obf8i2qvshk2c1t.apps.googleusercontent.com",
 
   // --- Google API Scopes ---
   SCOPES: [
